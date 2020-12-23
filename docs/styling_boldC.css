@@ -1,0 +1,79 @@
+/* NAVIGATION BAR */
+
+hr.topNav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.navbar {
+    justify-content:stretch;
+    text-align:center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    
+}
+
+hr.bottomNav {
+    margin-top: 0px;
+}
+
+a.BUTTON {
+    font-size: 120%;
+}
+
+a:hover {
+  color: white;
+  background-color: navy;
+}
+
+
+
+/* GENERAL STYLING */
+
+body {
+    
+}
+
+div.header {
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* HOMEPAGE STYLING */
+
+div.page {
+    margin: 50px;
+}
+
+p {
+    padding: 10px;
+}
+
+p.emphasis {
+    text-align:center;
+    font-size: larger;
+}
+
+/* FOOTER CONTENT */
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align:center;
+}
+
+div.footer {
+    
+}
+
