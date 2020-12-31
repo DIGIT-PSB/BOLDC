@@ -8,8 +8,8 @@ hr.topNav {
 div.navbar {
     justify-content:stretch;
     text-align:center;
-    background-color: #6787e7;
-    background-image: linear-gradient(to top left, #6797e7, #ecf0fc);
+    background-color: #b29fc9;
+      background-image: linear-gradient(to top left, #b29fc9, #ecf0fc);
     
     padding: 10px;
     
@@ -34,31 +34,76 @@ a:hover {
 /* GENERAL STYLING */
 
 body {
-    
+    background-color: #f1f1f1;
+    font-family: helvetica, arial, sans-serif
+}
+
+div.page {
+    margin: 50px;
 }
 
 div.header {
-    background-color: #6787e7;
-    background-image: linear-gradient(to bottom right, #6797e7, #ecf0fc);
+    background-color: #b29fc9;
+    background-image: linear-gradient(to bottom right, #b29fc9, #ecf0fc);
     border-style: ridge;
 }
 
 h1 {
     text-align: center;
+    font-size: 2em;
+    color: #661aff;
+    /*font-family: impact, fantasy;*/
+}
+
+h1.head {
+    font-size: 5em;
+    line-height: .4em;
+}
+
+span.B {
+    font-style: italic;
+}
+
+span.c {
+    padding-left: .1em;
+    font-weight: bold;
+    font-size: larger;
+}
+
+h2.head {
+    font-size: 1.5em;
 }
 
 h2 {
     text-align: center;
+    font-size: 1.8em;
+    color: #661aff;
+    
 }
 
 h3 {
     text-align: center;
+    font-size: 1.4em;
+    color: #661aff;
+    
 }
 
 /* HOMEPAGE STYLING */
 
-div.page {
-    margin: 50px;
+div#mission {
+    
+}
+
+i b {
+    color: #661aff;
+}
+
+dfn {
+    color: #661aff;
+}
+
+.head {
+    color: black;
 }
 
 p {
@@ -66,20 +111,35 @@ p {
     line-height: 1.8em;
 }
 
-p.emphasis {
+p.definition {
     text-align:center;
-    font-size: larger;
+    font-size: 1.2em;
 }
 
 /* FOOTER CONTENT */
 
 footer {
-    background-color: #f1f1f1;
+    background-color: #b29fc9;
+      background-image: linear-gradient(to top left, #b29fc9, #ecf0fc);
+    
     padding: 10px;
     text-align:center;
 }
 
 div.footer {
-    
+    display: flex;
+    flex-direction: row;
 }
 
+div.PSU {
+    flex:2
+}
+
+
+div.contact {
+    flex:2;
+}
+
+div.internal {
+    flex:1;
+}
