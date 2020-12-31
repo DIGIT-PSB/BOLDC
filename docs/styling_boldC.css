@@ -8,7 +8,9 @@ hr.topNav {
 div.navbar {
     justify-content:stretch;
     text-align:center;
-    background-color: #f1f1f1;
+    background-color: #6787e7;
+    background-image: linear-gradient(to top left, #6797e7, #ecf0fc);
+    
     padding: 10px;
     
 }
@@ -19,11 +21,12 @@ hr.bottomNav {
 
 a.BUTTON {
     font-size: 120%;
+    color: black;
 }
 
 a:hover {
   color: white;
-  background-color: navy;
+    background-color: steelblue;
 }
 
 
@@ -35,7 +38,9 @@ body {
 }
 
 div.header {
-    
+    background-color: #6787e7;
+    background-image: linear-gradient(to bottom right, #6797e7, #ecf0fc);
+    border-style: ridge;
 }
 
 h1 {
@@ -58,6 +63,7 @@ div.page {
 
 p {
     padding: 10px;
+    line-height: 1.8em;
 }
 
 p.emphasis {
