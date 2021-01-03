@@ -22,11 +22,19 @@ hr.bottomNav {
 a.BUTTON {
     font-size: 120%;
     color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a.BUTTON:hover {
+  color: white;
+    background-image: linear-gradient(to right,  #b29fc9, #5c00e6,  #b29fc9);
 }
 
 a:hover {
-  color: white;
-    background-color: steelblue;
+    color: #0086b3;
 }
 
 
@@ -84,14 +92,66 @@ h2 {
 h3 {
     text-align: center;
     font-size: 1.4em;
-    color: #661aff;
+    color: #5c00e6;
+    text-shadow: 1px 1px 4px #b29fc9;
     
 }
+
+p.center {
+    text-align: center;
+    font-size:larger;
+}
+
+a {
+    color: #000099;
+}
+
 
 /* HOMEPAGE STYLING */
 
 div#mission {
     
+}
+
+div#greeting {
+    background-image: linear-gradient(#f1f1f1, #b29fc9);
+    
+}
+
+div#involve {
+    background-image: linear-gradient(#b29fc9, #f1f1f1);
+    border-style: dashed solid;
+}
+
+h3#liColor {
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+    
+}
+
+span.steps {
+    font-size: larger;
+}
+
+a.introLinks {
+    color: black;
+}
+
+a.introLinks:hover {
+    color: #5c00e6;
+}
+
+/*a.introLinks:hover {
+    color: #732673;
+}*/
+
+em#textDeco {
+    text-decoration: underline;
+}
+
+section#about {
+    background-image: linear-gradient(#f1f1f1, #b29fc9);
 }
 
 i b {
@@ -143,3 +203,18 @@ div.contact {
 div.internal {
     flex:1;
 }
+
+/* PROPOSAL FORM PAGE */
+
+section#formBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe#proposal {
+    
+    flex: 100%;
+}
+
