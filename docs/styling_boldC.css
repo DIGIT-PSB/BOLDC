@@ -29,8 +29,9 @@ a.BUTTON {
 }
 
 a.BUTTON:hover {
-  color: white;
-    background-image: linear-gradient(to right,  #b29fc9, #5c00e6,  #b29fc9);
+  color: black;
+    border-style: outset;
+    background-image: radial-gradient(#ecf0fc, #b29fc9);/*(to right,  #b29fc9, #5c00e6,  #b29fc9);*/
 }
 
 a:hover {
