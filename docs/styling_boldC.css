@@ -1,4 +1,4 @@
-/* NAVIGATION BAR */
+                                       /* NAVIGATION BAR */
 
 hr.topNav {
     margin-top: 0px;
@@ -9,7 +9,7 @@ div.navbar {
     justify-content:stretch;
     text-align:center;
     background-color: #b29fc9;
-      background-image: linear-gradient(to top left, #b29fc9, #ecf0fc);
+      background-image: linear-gradient(to top left, #70a9a9, #ecf0fc);
     
     padding: 10px;
     
@@ -31,7 +31,7 @@ a.BUTTON {
 a.BUTTON:hover {
   color: black;
     border-style: outset;
-    background-image: radial-gradient(#ecf0fc, #b29fc9);/*(to right,  #b29fc9, #5c00e6,  #b29fc9);*/
+    background-image: radial-gradient(#ecf0fc, #80b3b3);/*(to right,  #b29fc9, #5c00e6,  #b29fc9);*/
 }
 
 a:hover {
@@ -40,11 +40,17 @@ a:hover {
 
 
 
-/* GENERAL STYLING */
+                                       /* GENERAL STYLING */
+               /* COLOR PALLATE:
+                * #99ccff LIGHT BLUE
+                * #009999 TEAL
+                * #80b3b3 MUTED BLUE 
+                * #70a9a9 SLIGHTLY DARKER VERSION OF ^^*/
 
 body {
     background-color: #f1f1f1;
-    font-family: helvetica, arial, sans-serif
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.2em;
 }
 
 div.page {
@@ -53,7 +59,7 @@ div.page {
 
 div.header {
     background-color: #b29fc9;
-    background-image: linear-gradient(to bottom right, #b29fc9, #ecf0fc);
+    background-image: linear-gradient(to bottom right, #70a9a9, #ecf0fc);
     border-style: ridge;
 }
 
@@ -67,6 +73,8 @@ h1 {
 h1.head {
     font-size: 5em;
     line-height: .4em;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 span.B {
@@ -93,35 +101,35 @@ h2 {
 h3 {
     text-align: center;
     font-size: 1.4em;
-    color: #5c00e6;
-    text-shadow: 1px 1px 4px #b29fc9;
+    color: #009999;
+    text-shadow: 1px 1px 4px #70a9a9;
     
 }
+
+
 
 p.center {
     text-align: center;
     font-size:larger;
 }
 
-a {
-    color: #000099;
-}
 
 
-/* HOMEPAGE STYLING */
+
+                              /* HOMEPAGE STYLING */
 
 div#mission {
     
 }
 
 div#greeting {
-    background-image: linear-gradient(#f1f1f1, #b29fc9);
+    /*background-image: linear-gradient(#f1f1f1, #b29fc9);*/
     
 }
 
 div#involve {
-    background-image: linear-gradient(#b29fc9, #f1f1f1);
-    border-style: dashed solid;
+    /*background-image: linear-gradient(#b29fc9, #f1f1f1);*/
+    border-style: none dashed;
 }
 
 h3#liColor {
@@ -140,7 +148,7 @@ a.introLinks {
 }
 
 a.introLinks:hover {
-    color: #5c00e6;
+    color: #009999;
 }
 
 /*a.introLinks:hover {
@@ -152,15 +160,15 @@ em#textDeco {
 }
 
 section#about {
-    background-image: linear-gradient(#f1f1f1, #b29fc9);
+    /*background-image: linear-gradient(#f1f1f1, #b29fc9);*/
 }
 
 i b {
-    color: #661aff;
+    color: #009999;
 }
 
 dfn {
-    color: #661aff;
+    color: #009999;
 }
 
 .head {
@@ -177,14 +185,22 @@ p.definition {
     font-size: 1.2em;
 }
 
-/* FOOTER CONTENT */
+                            /* FOOTER CONTENT */
 
 footer {
-    background-color: #b29fc9;
-      background-image: linear-gradient(to top left, #b29fc9, #ecf0fc);
+    background-color: #70a9a9;
+      background-image: linear-gradient(to top, #70a9a9, #f1f1f1/*#ecf0fc*/);
     
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     text-align:center;
+
+}
+
+a {
+    color: #000099;
 }
 
 div.footer {
@@ -205,7 +221,7 @@ div.internal {
     flex:1;
 }
 
-/* PROPOSAL FORM PAGE */
+                       /* PROPOSAL FORM PAGE */
 
 section#formBox {
     display: flex;
@@ -217,5 +233,41 @@ section#formBox {
 iframe#proposal {
     
     flex: 100%;
+}
+
+
+
+                     /* 404 ERROR PAGE */
+
+div#error {
+    /*background-image: url(images/rawr404.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+}
+
+h1#oops {
+    color:black;
+    font-size: 3em;
+    margin-bottom: 0px;
+    text-align:left;
+    margin-left: 60px;
+}
+
+p.errorMsg {
+    /*text-align:center;*/
+    margin-left: 70px;
+}
+
+
+
+img#errorimg {
+    display: flex;
+  /*  margin-left: auto;
+  margin-right: auto;*/
+  float:right;
+  padding-right: 100px;
+  
+  
 }
 
