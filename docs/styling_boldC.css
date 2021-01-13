@@ -74,8 +74,10 @@ img.logo {
 h1 {
     text-align: center;
     font-size: 2em;
-    color: #661aff;
-    /*font-family: impact, fantasy;*/
+    /*color: #661aff;*/
+     font-family: "Audiowide", sans-serif;
+    color: black;
+    text-shadow: 1px 1px 5px #70a9a9;
 }
 
 h1.head {
@@ -104,7 +106,8 @@ h2.head {
 h2 {
     text-align: center;
     font-size: 1.8em;
-    color: #661aff;
+    color: #009999;
+     font-family: "Audiowide", sans-serif;
     
 }
 
@@ -233,7 +236,7 @@ div.internal {
     flex:1;
 }
 
-                       /* PROPOSAL FORM PAGE */
+                              /* PROPOSAL FORM PAGE */
 
 section#formBox {
     display: flex;
@@ -247,6 +250,58 @@ iframe#proposal {
     flex: 100%;
 }
 
+
+                              /* RESOURCES PAGE */
+          
+div.button-group {
+    display: flex;
+}
+          
+span#services{
+    background-image:url(images/button_images/button1.jpg);
+    background-size: 600px;
+    display: block;
+    padding: 10%;
+    margin: auto;
+    background-position: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    width: 250px;
+}
+
+
+span#tech {
+    background-image:url(images/button_images/button2.jpg);
+    background-size: 600px;
+    display: block;
+     padding: 10%;
+    margin: auto;
+    background-position: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    width: 250px;
+}
+   
+a.push {
+     font-family: "Audiowide", sans-serif;
+     color: white;
+     text-shadow: 2px 2px 5px black;
+     font-size: 2em;
+     font-weight: bold;
+     text-align: center;
+}
+                         
+                         
+                         
+                         
+                         
+                             /* PREVIOUS PROJECTS PAGE */
+                         
+                         
+                         
+                         
+                         
+                         
 
 
                      /* 404 ERROR PAGE */
