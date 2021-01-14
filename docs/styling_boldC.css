@@ -27,6 +27,7 @@ a.BUTTON {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: "Audiowide", sans-serif;
+    transition: .2s;
 }
 
 a.BUTTON:hover {
@@ -46,7 +47,8 @@ a:hover {
                 * #99ccff LIGHT BLUE
                 * #009999 TEAL
                 * #80b3b3 MUTED BLUE 
-                * #70a9a9 SLIGHTLY DARKER VERSION OF ^^*/
+                * #70a9a9 SLIGHTLY DARKER VERSION OF ^^
+                #baf7e3 MUTED AQUAMARINE */
 
 body {
     background-color: #f1f1f1;
@@ -255,31 +257,69 @@ iframe#proposal {
           
 div.button-group {
     display: flex;
+    margin: auto;
+    width: 100%;
 }
           
-span#services{
-    background-image:url(images/button_images/button1.jpg);
+div#services{
+    /*background-image:url(images/button_images/button1.jpg);*/
+    background-image: linear-gradient(to bottom right, #baf7e3, #70a9a9, #ecf0fc);
     background-size: 600px;
+    opacity: .7;
+    transition: .3s;
     display: block;
-    padding: 10%;
+    padding: 8%;
     margin: auto;
     background-position: center;
     border-radius: 20px;
     background-repeat: no-repeat;
     width: 250px;
+    float:left;
+}
+
+div#services:hover {
+    opacity: 1;
+    padding: 7%;
+    padding-bottom: 5%;
+}
+
+p.hoverText {
+    opacity: 0;
+    font-size: .01em;
+    transition: .3s;
+}
+
+#services:hover .hoverText {
+    opacity: 1;
+    font-size:inherit;
+}
+
+#tech:hover .hoverText {
+    opacity:1;
+    font-size: inherit;
 }
 
 
-span#tech {
-    background-image:url(images/button_images/button2.jpg);
+div#tech {
+    /*background-image:url(images/button_images/button2.jpg);*/
+    background-image: linear-gradient(to top left, #baf7e3, #70a9a9, #ecf0fc);
     background-size: 600px;
+      opacity: .7;
+    transition: .3s;
     display: block;
-     padding: 10%;
+     padding: 8%;
     margin: auto;
     background-position: center;
     border-radius: 20px;
     background-repeat: no-repeat;
     width: 250px;
+    float:left;
+}
+
+div#tech:hover {
+    opacity: 1;
+    padding:7%;
+    padding-bottom: 5%;
 }
    
 a.push {
@@ -297,10 +337,16 @@ a.push {
                          
                              /* PREVIOUS PROJECTS PAGE */
                          
+div#content-wrap {
+    display:flex;
+}
                          
-                         
-                         
-                         
+div.media {
+    display:block;
+    
+}                  
+
+
                          
 
 
