@@ -384,3 +384,49 @@ img#errorimg {
   
 }
 
+
+
+
+
+                /* POLICY PAGE */
+
+
+section.genpol {
+    padding-left:5%;
+    padding-right:5%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+    height:30px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+div.signiatures {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+div.indent {
+    padding-left:4em;
+}
+
+
+
+
