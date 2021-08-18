@@ -21,7 +21,7 @@ body {
 }
 
 div.page {
-    margin:5%;
+    margin: 5%;
 }
 
 
@@ -190,8 +190,8 @@ a.contactButton:hover {
 
 /* HOMEPAGE STYLING */
 
-div.homepage{
-    
+div.homepage {
+
 }
 
 section#welcome {
@@ -200,8 +200,8 @@ section#welcome {
     background-size: cover;
     position: relative;
     display: block;
-    padding:120px 0px 120px 0px;
-    background-attachment:fixed;
+    padding: 120px 0px 120px 0px;
+    background-attachment: fixed;
 }
 
 div#greetingImageWrap {
@@ -210,26 +210,29 @@ div#greetingImageWrap {
 }
 
 div.imageText {
-    display:block;
-    align-self:center;
+    display: block;
+    align-self: center;
     margin-left: 20%;
     margin-right: 20%;
     background: rgba(255, 255, 255, .8);
-    border-radius:10px;
-    padding:1%;
+    border-radius: 10px;
+    padding: 1%;
 }
 
 h3.imageHead {
-    text-shadow:1px 1px black;
-    color:#4fafaf;
+    text-shadow: 1px 1px black;
+    color: #4fafaf;
 }
 
 
+
+
+
 div#involveWrap {
-    margin-left:15%;
-    margin-right:15%;
-    margin-top:3%;
-    margin-bottom:3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 div.involve {
@@ -252,7 +255,7 @@ span.steps {
 a.introLinks {
     color: black;
     font-family: "Audiowide", sans-serif;
-    transition:.2s;
+    transition: .2s;
 }
 
 a.introLinks:hover {
@@ -260,8 +263,8 @@ a.introLinks:hover {
 }
 
 div.involvepara {
-    padding-left:12px;
-    padding-right:12px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 em#textDeco {
@@ -282,39 +285,39 @@ div#aboutWrap {
     background-size: cover;
     position: relative;
     display: block;
-    padding:100px 0px 100px 0px;
-    background-attachment:fixed;
+    padding: 100px 0px 100px 0px;
+    background-attachment: fixed;
 }
 
 div#missionContainer {
-    display:flex;
+    display: flex;
 }
 
 div.mission {
-    display:block;
-    align-self:center;
+    display: block;
+    align-self: center;
     margin-left: 20%;
     margin-right: 20%;
     background: rgba(255, 255, 255, .8);
-    border-radius:10px;
-    padding:1%;
+    border-radius: 10px;
+    padding: 1%;
 }
 
 div.gear {
-    margin-left:15%;
-    margin-right:15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 i b {
     color: #4fafaf;
-    text-shadow:1px 1px black;
-    font-weight:bold;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
 }
 
 dfn {
     color: #4fafaf;
-    text-shadow:1px 1px black;
-    font-weight:bold;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
 }
 
 .head {
@@ -329,9 +332,14 @@ p {
 p.definition {
     text-align: center;
     font-size: 1.3em;
-font-style: italic;
-font-weight:400;
+    font-style: italic;
+    font-weight: 400;
 }
+
+
+
+
+
 
 /* FOOTER CONTENT */
 
@@ -347,7 +355,7 @@ footer {
 
 }
 
-a {
+footer a {
     color: #000099;
 }
 
@@ -356,8 +364,24 @@ div.footer {
     flex-direction: row;
 }
 
+div.footer p {
+    padding: 0px;
+    line-height: 1.5em;
+}
+
 div.PSU {
-    flex: 2
+    flex: 5;
+    display: flex;
+}
+
+img#PSB {
+    width: 50px;
+    flex: 1;
+}
+
+div.PSU p {
+    flex: 2;
+
 }
 
 
@@ -466,16 +490,212 @@ a.push {
 
 
 
+
+
+
 /* PREVIOUS PROJECTS PAGE */
 
-div#content-wrap {
-    display: flex;
+
+div.projectPage {
+
 }
 
-div.media {
+div.projectHead {
+    background-image: url("images/BOLDC_studentfilmshoot/Kurt_B_Demo_Shots/blackmagicPhotos_corrected/blkmagic-22.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
     display: block;
-
+    padding: 130px 0px 130px 0px;
+    background-attachment: fixed;
 }
+
+
+div.prodimageText {
+    display: block;
+    align-self: center;
+    padding:1%;
+    margin-left:25%;
+    margin-right:25%;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+   
+}
+
+div.prodimageText p {
+    text-align:center;
+}
+
+
+
+section.productions {
+    
+}
+
+div.prodRow{
+   /* display:flex;
+    flex-direction:row;*/
+}
+
+div.prodWrap {
+    display:flex;
+   justify-content: center;
+  
+}
+
+video#alexthebrain {
+     height:87vh;
+  
+    position:absolute;
+    display:flex;
+}
+
+a.mediaLink {
+
+     transition:.3s;
+}
+
+a.mediaLink:hover {
+    opacity:.7;
+}
+
+div.vidText{
+    position:relative;
+    /*display: flex;*/
+    justify-content:center;
+    width:100%;
+    flex-wrap:wrap;
+    margin: 250px;
+}
+
+h1.vidTitle {
+    text-align: center;
+font-size: 2em;
+color: #661aff;
+font-family: "Audiowide", sans-serif;
+color: white;
+text-shadow: 1px 1px 5px #000;
+}
+
+/*div.vidTextWrap {
+  
+}*/
+
+
+/* PRODUCTIONS IMAGE TOGGLE */
+
+div.lightbox {
+    position: fixed;
+z-index: 999;
+height: 0;
+width: 0;
+text-align: center;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.8);
+opacity: 0;
+display:none;
+}
+
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+
+    width: 100%;
+    height: 100%;
+    opacity: 1 !important;
+display:flex;
+justify-content:center;
+flex-flow: wrap;
+}
+
+.lightbox:target div.title {
+   
+     color: white;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+    vertical-align: middle;
+    line-height: .15em;
+    /*transition: opacity 0.6s;*/
+    max-height: 45vw;
+align-self: center;
+/*/\*display: inline-flex;*\/*/
+justify-self: center;
+font-size: large;
+}
+
+.lightbox:target div.prodDesc {
+    background-color: rgba(77, 77, 77, 0.8);
+     color: white;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+    vertical-align: middle;
+    line-height: .15em;
+    /*transition: opacity 0.6s;*/
+    max-height: 45vw;
+align-self: center;
+/*/\*display: inline-flex;*\/*/
+justify-self: center;
+bottom:2%;
+left:2%;
+font-size: large;
+position:absolute;
+}
+
+div.prodDesc p {
+    padding: 0px;
+    line-height:1.5em;
+    font-size:smaller;
+}
+
+.lightbox:target div.prodDesc p {
+    
+}
+
+.lightbox:target div.prodDesc a {
+    color:aqua;
+}
+
+.lightbox:target div.prodDesc a:hover {
+    color:white;
+}
+
+.lightbox:target img {
+animation: fadeInScale 1.2s ease-in-out;
+
+   /* background-color: rgba(77, 77, 77, 0.95);*/
+    opacity: 1 !important;
+    vertical-align: middle;
+    /*/\*webkit-transition: opacity 0.6s;*\/*/
+    transition: opacity 0.6s linear;
+    max-height: 50vh;
+align-self: center;
+display: inline-flex;
+justify-self: center;
+/*margin: auto;*/
+object-fit: contain;
+/*margin-left: 3vw;*/
+}
+
+.btn-close {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    color: #fafafa;
+    background-color: #92001d;
+    border: solid 5px #ef4036;
+    padding: 10px 15px;
+    border-radius: 1px;
+    text-decoration: none;
+    opacity:.4;
+    transition: 1s ease;
+}
+
+.btn-close:hover {
+    background-color: #740404;
+    opacity:1;
+}
+
 
 
 
@@ -558,6 +778,5 @@ div.signiatures {
 div.indent {
     padding-left: 4em;
 }
-
 
 
