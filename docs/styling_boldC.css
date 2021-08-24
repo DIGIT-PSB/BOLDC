@@ -31,7 +31,7 @@ div.page {
 
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     /*color: #661aff;*/
     font-family: "Audiowide", sans-serif;
     color: black;
@@ -54,7 +54,7 @@ span.c {
 
 h2 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #009999;
     font-family: "Audiowide", sans-serif;
 
@@ -196,8 +196,8 @@ a.contactButton:hover {
 @media screen and (max-width: 800px) {
     .headerWrap {flex-direction:column;}
     .logoAlt {width:25vw;}
-    h1.headAlt {font-size:7vw;}
-    h2.headAlt {font-size:5vw;}
+    h1.headAlt {font-size:8vw;}
+    h2.headAlt {font-size:3vw;}
     .BUTTONalt {font-size:2.9vw;
                 padding:3px;
     }
