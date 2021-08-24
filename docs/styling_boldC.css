@@ -14,10 +14,14 @@ a:hover {
 }
 
 
+
+
+@media screen and (min-width: 800px) {
 body {
     background-color: #f1f1f1;
     font-family: helvetica, arial, sans-serif;
     font-size: 1.2em;
+}
 }
 
 div.page {
@@ -50,7 +54,7 @@ span.c {
 
 h2 {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.2em;
     color: #009999;
     font-family: "Audiowide", sans-serif;
 
@@ -77,7 +81,7 @@ p.center {
 
 div.headerWrap {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     background-color: #b29fc9;
     background-image: linear-gradient(to bottom right, #70a9a9, #ecf0fc);
     border-style: ridge;
@@ -98,8 +102,9 @@ div.logoWrap {
 img.logoAlt {
     display: flex;
     margin: auto;
-    width: 180px;
+    max-width: 180px;
     padding-top: 10px;
+    /*font-size: 3vw*/
 }
 
 div.headText {
@@ -109,7 +114,7 @@ div.headText {
 
 h1.headAlt {
     text-align: left;
-    font-size: 3.2em;
+    /*font-size: 3.2em;*/
     margin-top: 3px;
     margin-bottom: 1px;
 
@@ -117,7 +122,7 @@ h1.headAlt {
 
 h2.headAlt {
     text-align: left;
-    font-size: 1em;
+    /*font-size: 1em;*/
     margin-top: 1px;
     margin-bottom: 3px;
 }
@@ -143,7 +148,7 @@ a.BUTTONalt {
     font-family: "Audiowide", sans-serif;
     transition: .4s;
     color: black;
-    font-size: 100%;
+    /*font-size: 100%;*/
     display: inline-block;
     align-self: center;
 }
@@ -174,7 +179,7 @@ a.contactButton {
     border-style: outset;
     color: black;
     background-image: radial-gradient(#ecf0fc, #80b3b3);
-    padding: 10px;
+    padding: .2em;
 }
 
 a.contactButton:hover {
@@ -182,6 +187,28 @@ a.contactButton:hover {
     color: grey;
     text-shadow: 1px 1px white;
 }
+
+
+
+
+
+    /* MOBILE HEADER  */
+@media screen and (max-width: 800px) {
+    .headerWrap {flex-direction:column;}
+    .logoAlt {width:25vw;}
+    h1.headAlt {font-size:7vw;}
+    h2.headAlt {font-size:5vw;}
+    .BUTTONalt {font-size:2.9vw;
+                padding:3px;
+    }
+    .contactButton {font-size:2.9vw;
+    padding:0px;
+    border-width: 1.5px;}
+}
+
+
+
+
 
 
 
