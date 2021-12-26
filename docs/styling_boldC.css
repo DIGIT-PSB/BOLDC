@@ -616,7 +616,15 @@ div.prodWrap {
 }
 
 video#alexthebrain {
-     height:87vh;
+     height:750px;
+     width:auto;
+  
+    position:absolute;
+    display:flex;
+}
+img#BLINDED {
+     height:600px;
+     width:auto;
   
     position:absolute;
     display:flex;
