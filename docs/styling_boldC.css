@@ -54,11 +54,12 @@ span.c {
 
 h2 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #009999;
     font-family: "Audiowide", sans-serif;
 
 }
+
 
 h3 {
     text-align: center;
@@ -75,6 +76,9 @@ p.center {
     text-align: center;
     font-size: larger;
 }
+
+
+
 
 
 /* HEADER STYLE */
@@ -421,7 +425,7 @@ footer {
 
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 2px;
+    padding-top: 70px;
     padding-bottom: 2px;
     text-align: center;
 
@@ -429,6 +433,7 @@ footer {
 
 footer a {
     color: #000099;
+   
 }
 
 div.footer {
@@ -616,16 +621,17 @@ div.prodWrap {
 }
 
 video#alexthebrain {
-     height:750px;
-     width:auto;
+     height:87vh;
+     
   
     position:absolute;
     display:flex;
 }
 img#BLINDED {
-     height:600px;
+     height:87vh;
      width:auto;
-  
+     padding-top:100px;
+     
     position:absolute;
     display:flex;
 }
