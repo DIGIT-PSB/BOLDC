@@ -1,0 +1,17 @@
+__BEGIN_CONFIG__,,,,,,,,,,,,,
+VERSION,2,,,,,,,,,,,,
+TYPE,RESOURCE-TYPE,,,,,,,,,,,,
+ORIGIN,EXTERNAL,,,,,,,,,,,,
+LABEL,Exported 2020-11-20 14:14,,,,,,,,,,,,
+LOOKUP_COLUMNS,RESOURCE-TYPE-ID,,,,,,,,,,,,
+IMPORT_COLUMNS,NAME,PARENT,ORGANIZATION,VALUE,DESCRIPTION,DESCRIPTION-URL,LINK-TEXT,IMAGE-URL,CAPTION,AUTHORIZED,REQUIRES-CERTIFICATION,PIR-P,ORIGIN
+NONIMPORT_COLUMNS,,,,,,,,,,,,,
+__BEGIN_DATA__,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+NAME,RESOURCE-TYPE-ID,PARENT,ORGANIZATION,VALUE,DESCRIPTION,DESCRIPTION-URL,LINK-TEXT,IMAGE-URL,CAPTION,AUTHORIZED,REQUIRES-CERTIFICATION,PIR-P,ORIGIN
+lighting,lighting,,,,,,,,,,,,
+grip,grip,,,,includes sandbags,,,,,,,,
+audio,audio,,,,,,,,,,,,
+camera,camera,,,,,,,,,,,,
+postProduction,postProduction,,,,,,,,,,,,
+accessory,accessory,,,,lens  tripods  etc,,,,,,,,
