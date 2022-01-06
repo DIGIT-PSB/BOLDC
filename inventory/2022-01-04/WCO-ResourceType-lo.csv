@@ -1,0 +1,16 @@
+__BEGIN_CONFIG__,,,,,,,,,,
+VERSION,2,,,,,,,,,
+TYPE,RESOURCE-TYPE,,,,,,,,,
+ORIGIN,EXTERNAL,,,,,,,,,
+LABEL,Exported 2020-11-20 14:14,,,,,,,,,
+LOOKUP_COLUMNS,RESOURCE-TYPE-ID,,,,,,,,,
+IMPORT_COLUMNS,NAME,ORGANIZATION,DESCRIPTION,ORIGIN,,ORIGIN,,,,
+NONIMPORT_COLUMNS,DESCRIPTION-URL,LINK-TEXT,IMAGE-URL,CAPTION,PARENT,VALUE,,,,
+__BEGIN_DATA__,,,,,,,,,,
+NAME,RESOURCE-TYPE-ID,PARENT,ORGANIZATION,VALUE,DESCRIPTION,DESCRIPTION-URL,LINK-TEXT,IMAGE-URL,CAPTION,ORIGIN
+lighting,lighting,,ER - Bold-C,,,,,,,ER - Bold-C
+grip,grip,,ER - Bold-C,,includes sandbags,,,,,ER - Bold-C
+audio,audio,,ER - Bold-C,,,,,,,ER - Bold-C
+camera,camera,,ER - Bold-C,,,,,,,ER - Bold-C
+postProduction,postProduction,,ER - Bold-C,,,,,,,ER - Bold-C
+accessory,accessory,,ER - Bold-C,,lens  tripods  etc,,,,,ER - Bold-C
