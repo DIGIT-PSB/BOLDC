@@ -35,9 +35,12 @@ h1 {
     /*color: #661aff;*/
     font-family: "Audiowide", sans-serif;
     color: black;
-    text-shadow: 1px 1px 5px #70a9a9;
+    text-shadow: 1px 1px 5px #59949e;
 }
-
+h2.imageHead {
+    text-shadow: 1px 1px black;
+    color: #4fafaf;
+}
 
 
 span.B {
@@ -54,7 +57,7 @@ span.c {
 
 h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #009999;
     font-family: "Audiowide", sans-serif;
 
@@ -87,7 +90,7 @@ div.headerWrap {
     display: flex;
     /*flex-direction: row;*/
     background-color: #b29fc9;
-    background-image: linear-gradient(to bottom right, #70a9a9, #ecf0fc);
+    background-image: linear-gradient(to bottom right, #59949e, #ecf0fc);
     border-style: ridge;
 }
 
@@ -96,7 +99,7 @@ div.headerFlex {
     flex-direction: row;
     flex: 1;
     background-color: #b29fc9;
-    background-image: linear-gradient(to bottom right, #70a9a9, #ecf0fc);
+    background-image: linear-gradient(to bottom right, #59949e, #ecf0fc);
 }
 
 div.logoWrap {
@@ -136,7 +139,7 @@ div.navWrap {
     flex: 1;
     flex-direction: column;
     background-color: #b29fc9;
-    background-image: linear-gradient(to top left, #70a9a9, #ecf0fc);
+    background-image: linear-gradient(to bottom left, #59949e, #ecf0fc);
 }
 
 div.navbarAlt {
@@ -304,6 +307,7 @@ h3.imageHead {
 
 
 
+
 div#involveWrap {
     margin-left: 15%;
     margin-right: 15%;
@@ -421,11 +425,11 @@ p.definition {
 
 footer {
     background-color: #70a9a9;
-    background-image: linear-gradient(to top, #70a9a9, #f1f1f1 /*#ecf0fc*/);
+    background-image: linear-gradient(to top, #59949e, #f1f1f1 /*#ecf0fc*/);
 
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 70px;
+    padding-top: 10px;
     padding-bottom: 2px;
     text-align: center;
 
@@ -434,6 +438,9 @@ footer {
 footer a {
     color: #000099;
    
+}
+div.foot {
+    padding-top: 250px;
 }
 
 div.footer {
@@ -495,7 +502,7 @@ div.button-group {
 
 div#services {
     /*background-image:url(images/button_images/button1.jpg);*/
-    background-image: linear-gradient(to bottom right, #baf7e3, #70a9a9, #ecf0fc);
+    background-image: linear-gradient(to bottom right, #baf7e3, #59949e, #ecf0fc);
     background-size: 600px;
     opacity: .7;
     transition: .3s;
@@ -534,7 +541,7 @@ p.hoverText {
 
 div#tech {
     /*background-image:url(images/button_images/button2.jpg);*/
-    background-image: linear-gradient(to top left, #baf7e3, #70a9a9, #ecf0fc);
+    background-image: linear-gradient(to top left, #baf7e3, #59949e, #ecf0fc);
     background-size: 600px;
     opacity: .7;
     transition: .3s;
@@ -570,7 +577,7 @@ a.push {
 
 
 
-/* PREVIOUS PROJECTS PAGE */
+/* PROJECTS PAGE */
 
 
 div.projectPage {
@@ -606,7 +613,7 @@ div.prodimageText p {
 
 
 section.productions {
-    
+    padding: 35px
 }
 
 div.prodRow{
