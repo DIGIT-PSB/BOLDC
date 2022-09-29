@@ -422,10 +422,99 @@ p.definition {
 
 
 /* FOOTER CONTENT */
-
-footer {
+.footer-wrap {
+    color: #fff;
     background-color: #70a9a9;
     background-image: linear-gradient(to top, #59949e, #f1f1f1 /*#ecf0fc*/);
+    /*background-color: #041E42;*/
+    padding: 1.25rem 3em;
+}
+.footer-content img{
+    width: 200px;
+    height: auto;
+    margin: 0 2em 2em 0;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+.features{
+    margin-top: 20px;
+    padding: 0 1.75em;
+}
+.features p{
+    font-size: 1.05em;
+    line-height: 2em;
+    margin-bottom: 2em;
+    margin-top: 0;
+    color: #000;
+}
+.features p a{
+    text-decoration: none;
+    color: #000;
+}
+.features p a:hover{
+    text-decoration: underline;
+}
+.features a {
+    fill: #000;
+}
+.features a:hover{
+    fill: #fff;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+  display: none;
+}
+/* Footer responsiveness*/
+@media screen and (max-width:960px){
+    .footer-wrap{
+        padding: 1.25em 2.25em;
+    }
+    .footer-content{
+         max-width: 1160px;
+         justify-content: space-evenly;
+    }
+    .footer-content .break {
+        display: flex;
+    }
+    .features {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:500px){
+    .footer-wrap {
+        padding: 2em 0%;
+        margin-bottom: 40px;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .features {
+        display: flex;
+        justify-content: center;
+    }
+    .features p {
+        text-align: center;
+    }
+}
+/*footer {
+    background-color: #70a9a9;
+    background-image: linear-gradient(to top, #59949e, #f1f1f1 /\*#ecf0fc*\/);
 
     padding-right: 10px;
     padding-left: 10px;
@@ -451,7 +540,7 @@ div.footer {
 div.footer p {
     padding: 0px;
     line-height: 1.5em;
-}
+}*/
 
 div.PSU {
     flex: 5;
