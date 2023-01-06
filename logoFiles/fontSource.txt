@@ -1,3 +1,7 @@
 https://fonts.adobe.com/fonts/source-code-pro#details-section+source-code-pro-bold-italic
 
 style used: Bold Italics
+
+back shadow color: #258ffb
+
+Text color: #262626
