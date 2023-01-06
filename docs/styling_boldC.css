@@ -34,12 +34,12 @@ h1 {
     font-size: 3em;
     /*color: #661aff;*/
     font-family: "Audiowide", sans-serif;
-    color: black;
-    text-shadow: 1px 1px 5px #59949e;
+    color: #262626;
+    text-shadow: 1px 1px 5px #258ffb;
 }
 h2.imageHead {
-    text-shadow: 1px 1px black;
-    color: #4fafaf;
+    text-shadow: 1px 1px #258ffb;
+    color: #262626;
 }
 
 
@@ -58,7 +58,7 @@ span.c {
 h2 {
     text-align: center;
     font-size: 1.6em;
-    color: #009999;
+    color: #258ffb;
     font-family: "Audiowide", sans-serif;
 
 }
@@ -90,7 +90,7 @@ div.headerWrap {
     display: flex;
     /*flex-direction: row;*/
     background-color: #b29fc9;
-    background-image: linear-gradient(to bottom right, #59949e, #ecf0fc);
+    background-image: linear-gradient(to bottom right, #6e7273, #ecf0fc);
     border-style: ridge;
 }
 
@@ -99,7 +99,7 @@ div.headerFlex {
     flex-direction: row;
     flex: 1;
     background-color: #b29fc9;
-    background-image: linear-gradient(to bottom right, #59949e, #ecf0fc);
+    background-image: linear-gradient(to bottom right, #6e7273, #ecf0fc);
 }
 
 div.logoWrap {
@@ -109,7 +109,7 @@ div.logoWrap {
 img.logoAlt {
     display: flex;
     margin: auto;
-    max-width: 180px;
+    max-width: 380px;
     padding-top: 10px;
     /*font-size: 3vw*/
 }
@@ -140,7 +140,7 @@ div.navWrap {
     flex: 1;
     flex-direction: column;
     background-color: #b29fc9;
-    background-image: linear-gradient(to bottom left, #59949e, #ecf0fc);
+    background-image: linear-gradient(to bottom left, #6e7273, #ecf0fc);
 }
 
 div.navbarAlt {
@@ -162,7 +162,7 @@ a.BUTTONalt {
 }
 
 a.BUTTONalt:hover {
-    background-image: radial-gradient(#ecf0fc, #80b3b3);
+    background-image: radial-gradient(#ecf0fc, #258ffb);
     border-style: outset;
     padding: 5px;
 }
@@ -186,7 +186,7 @@ a.contactButton {
     font-family: "Audiowide", sans-serif;
     border-style: outset;
     color: black;
-    background-image: radial-gradient(#ecf0fc, #80b3b3);
+    background-image: radial-gradient(#ecf0fc, #258ffb);
     padding: .2em;
 }
 
@@ -300,8 +300,8 @@ div.imageText {
 }
 
 h3.imageHead {
-    text-shadow: 1px 1px black;
-    color: #4fafaf;
+    text-shadow: 1px 1px #258ffb;
+    color: #262626;
 }
 
 
@@ -324,8 +324,8 @@ div.involve {
 h3#liColor {
     text-align: center;
     font-size: 1.6em;
-    color: black;
-    text-shadow: 1px 1px 5px #70a9a9;
+    color: #262626;
+    text-shadow: 1px 1px 5px #258ffb;
 
 }
 
@@ -390,14 +390,14 @@ div.gear {
 }
 
 i b {
-    color: #4fafaf;
-    text-shadow: 1px 1px black;
+    color: #262626;
+    text-shadow: 1px 1px #258ffb;
     font-weight: bold;
 }
 
 dfn {
-    color: #4fafaf;
-    text-shadow: 1px 1px black;
+    color: #262626;
+    text-shadow: 1px 1px #258ffb;
     font-weight: bold;
 }
 
@@ -426,7 +426,7 @@ p.definition {
 .footer-wrap {
     color: #fff;
     background-color: #70a9a9;
-    background-image: linear-gradient(to top, #59949e, #f1f1f1 /*#ecf0fc*/);
+    background-image: linear-gradient(to top, #6e7273, #f1f1f1 /*#ecf0fc*/);
     /*background-color: #041E42;*/
     padding: 1.25rem 3em;
 }
@@ -460,17 +460,17 @@ p.definition {
     line-height: 2em;
     margin-bottom: 2em;
     margin-top: 0;
-    color: #000;
+    color: #fff;
 }
 .features p a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 .features p a:hover{
     text-decoration: underline;
 }
 .features a {
-    fill: #000;
+    fill: #fff;
 }
 .features a:hover{
     fill: #fff;
@@ -592,7 +592,7 @@ div.button-group {
 
 div#services {
     /*background-image:url(images/button_images/button1.jpg);*/
-    background-image: linear-gradient(to bottom right, #baf7e3, #59949e, #ecf0fc);
+    background-image: linear-gradient(to bottom right, #258ffb, #6e7273, #ecf0fc);
     background-size: 600px;
     opacity: .7;
     transition: .3s;
@@ -631,7 +631,7 @@ p.hoverText {
 
 div#tech {
     /*background-image:url(images/button_images/button2.jpg);*/
-    background-image: linear-gradient(to top left, #baf7e3, #59949e, #ecf0fc);
+    background-image: linear-gradient(to top left, #258ffb, #6e7273, #ecf0fc);
     background-size: 600px;
     opacity: .7;
     transition: .3s;
