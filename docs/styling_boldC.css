@@ -1010,7 +1010,17 @@ div.vcon {
     /*display: flex;
     align-items: center;
     justify-content: center;*/
-    width: 100%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+div.tutv {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+ 
   position: relative;
   width: 100%;
   overflow: hidden;
