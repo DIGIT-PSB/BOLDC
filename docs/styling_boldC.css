@@ -1026,3 +1026,36 @@ div.tutv {
   overflow: hidden;
   padding-top: 56.25%;
 }
+
+/* Gallery start */
+ul.image-gallery {
+  list-style: none;
+}
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+.image-gallery > li {
+
+  flex: 1 1 auto; /* or flex: auto; */
+  height: 300px;
+  cursor: pointer;
+  position: relative;
+
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.image-gallery::after {
+  content: "";
+  flex-grow: 999;
+}
+/* Gallery End */
